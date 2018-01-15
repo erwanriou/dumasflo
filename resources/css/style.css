@@ -19,6 +19,7 @@ header {
   display: flex;
   justify-content: space-between;
   height: 5rem;
+  align-items: center;
 }
 
 .logo {
@@ -29,10 +30,51 @@ header {
 .menus, .menus ul {
   display: flex;
   font-size: 1rem;
+  padding: 1rem;
+}
+
+.menus ul li {
+  padding: 0.5rem;
+}
+
+.menus a {
+  text-decoration: none;
+  color: black;
 }
 
 /* CONTENT */
 
+.banner {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.background-image1, .background-image2, .background-image3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50rem;
+}
+
+.background-image1 {
+  background-image: url("../images/wander_poster.png");
+}
+
+.background-image2 {
+  background-image: url("../images/kinoscope_fr_poster.jpg");
+}
+
+.background-image3 {
+  background-image: url("../images/wander_poster.png");
+}
+
+.background-image4 {
+  background-image: url("../images/wander_poster.png");
+}
 
 /* FOOTER */
 
